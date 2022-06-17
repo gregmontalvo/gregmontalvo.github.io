@@ -4,6 +4,7 @@ Universal Styles*/
   margin:  0px;
   box-sizing: border-box;
   font-weight: normal;
+  padding-inline-start:  0px;
 }
 
 body{
@@ -96,23 +97,6 @@ thead {
   background-color: white;
 }
 
-footer{
-  position: fixed !important;
-  width: 960px;
-  z-index: 1;
-  bottom: 0;
-  background-color: lightblue;
-  opacity: 0.95;
-}
-footer ul li{
-  padding: 15px;
-  display: inline-block;
-  list-style: none;
-}
-
-footer ul li {
-  vertical-align: middle;
-}
 
 a:hover {
   color: darkorange;
@@ -178,6 +162,33 @@ ul.services li{
   line-height: 1.1;
 }
 
+footer{
+  position: fixed !important;
+  width: 960px;
+  z-index: 1;
+  bottom: 0;
+  background-color: lightblue;
+  opacity: 0.95;
+}
+
+footer ul{
+  padding: 0px 0px 0px 10px;
+  height: px;
+  margin: 5px;
+  bottom: 0px ;
+}
+
+footer ul li{
+  padding: 5px;
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+}
+
+footer ul li form{
+  margin-left: 175px;
+}
+
 .email {
   border-radius: 4px;
   border: 1px solid #8c6b48;
@@ -185,6 +196,8 @@ ul.services li{
   margin: 2px 2px;
   color: #8c6b48;
   font-family: 'Oswald', sans-serif;
+  width: 100px;
+  height: 75px;
 }
 
 .email:hover{
