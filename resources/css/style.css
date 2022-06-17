@@ -1,3 +1,4 @@
+Universal Styles*/
 *{
   padding:  0px;
   margin:  0px;
@@ -14,6 +15,7 @@ body{
   font-size: 18px;
 }
 
+/*Sections*/
 h2{
   font-size: 26px;
   margin-top: 0px;
@@ -254,4 +256,3 @@ form input {
   padding: 10px;
   content: ">";
 }
-*/
