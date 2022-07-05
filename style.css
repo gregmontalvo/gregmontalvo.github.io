@@ -311,6 +311,31 @@ h1.img_head{
 	height: 40px !important;
 }
 
+.sales_table_header{
+	background-color: #24305E;
+	color: white;
+	font-weight: bold;
+	height: 40px !important;
+}
+
+.num_sales_row{
+	font-weight: 300;
+	height: 40px;
+}
+
+.euro_sqm_row{
+	font-weight: bold;
+	font-size: 14px;
+	font-style: italic;
+	height: 40px;
+	background-color:rgb(255, 226, 221) ;
+}
+
+.avg_price_row{
+	font-size: 16px;
+	height: 40px;
+	font-weight: 300;
+}
 
 .e{
 	width: 200px;
