@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter&family=Lobster&family=Merriweather:ital@0;1&family=Roboto:wght@100;300;400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="./">
-	<script src=”https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<script src="./mychart.js"></script>
 
 	
@@ -207,7 +207,41 @@
 			
 			<div class="value">	
 				<h1>Valoración del Inmueble €/m2</h1>
-				<div>hello</div>
+				<canvas id="myChart" width="400" height="200"></canvas>
+				
+				<script>
+					const ctx = document.getElementById('myChart');
+					const myChart = new Chart(ctx, {
+					    type: 'bar',
+					    data: {
+					        labels: ['Asking Price', 'Closing Price', 'Market Value', 'Fire Sale'],
+					        datasets: [{
+					            label: 'Valores €/m2 Locales/ Sierra Nevada',
+					            data: [2500, 2200, 2150, 1950],
+					            backgroundColor: [
+					                'rgba(255, 99, 132, 0.2)',
+					                'rgba(54, 162, 235, 0.2)',
+					                'rgba(255, 206, 86, 0.2)',
+					                'rgba(75, 192, 192, 0.2)'
+					            ],
+					            borderColor: [
+					                'rgba(255, 99, 132, 1)',
+					                'rgba(54, 162, 235, 1)',
+					                'rgba(255, 206, 86, 1)',
+					                'rgba(75, 192, 192, 1)'
+					            ],
+					            borderWidth: 1
+					        }]
+					    },
+					    options: {
+					        scales: {
+					            y: {
+					                beginAtZero: true
+					            }
+					        }
+					    }
+					});
+				</script>
 			</div>
 			
 			<div class="value">	
@@ -414,7 +448,7 @@
 				<li><a href="https://api.whatsapp.com/message/6KZWXYKPXUIVC1?autoload=1&app_absent=0" class="email">Whatsapp</a></li>
 				<li>
 					<form>
-						<input type="text" placeholder="¿+ info? 📧 Dejanos tu email.." class="emailbox">
+						<input type="text" placeholder="¿+ info? 📧 Déjanos tu email.." class="emailbox">
 						<input type="submit" name="Enviar" class="submit">
 					</form>
 				</li>
