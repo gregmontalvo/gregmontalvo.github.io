@@ -6,7 +6,8 @@
 body{
 	width: 1015px;
 	margin: auto;
-	background: #FAF6ED;
+	/*background: #FAF6ED;*/
+	background: #f5f2ee;
 	/*background: linear-gradient(-45deg, #35577D, #141E30)*/
 }
 
@@ -80,7 +81,7 @@ header {
 	display: grid;
 	grid-column-start: 1;
 	grid-column-end: 13;
-  background-color: #24305E;
+  background-color: rgb(66, 84, 108);
   color: white;
   grid-template-columns: 2fr 1fr 1fr 2fr 5fr;
   align-items: center;
@@ -327,7 +328,7 @@ h1.img_head{
 
 
 .sales_table_header{
-	background-color: #24305E;
+	background-color: rgb(66, 84, 108);
 	color: white;
 	font-weight: bold;
 	height: 45px !important;
@@ -536,7 +537,7 @@ h1.img_head{
 }
 
 .n{
-	background-color: #24305E;
+	background-color: rgb(66, 84, 108);
 }
 
 .o{
@@ -754,7 +755,7 @@ h1.img_head{
   padding-left: 5px;
 }
 .submit:hover{
-  background-color: #24305E;
+  background-color: rgb(66, 84, 108);
   color: white;
 }
 
@@ -806,13 +807,13 @@ footer ul li form{
 }
 
 .email:hover{
-  background-color: #24305E;
+  background-color: rgb(66, 84, 108);
   color: white;
 }
 
 .email:active{
   background-color: #8c6b48;
-  color: #24305E;
+  color: rgb(66, 84, 108);
 }
 
 
@@ -838,6 +839,20 @@ footer ul li form{
 	rgb(219, 237, 219)
 	rgb(232, 222, 238)
 	rgb(211, 229, 239)
+	rgba(255, 99, 132, 1)
+	rgba(54, 162, 235, 1)
+	rgba(255, 206, 86, 1)
+	rgba(75, 192, 192, 1)
+
+	rgb(66, 84, 108),
+	rgb(204, 203, 203)
+	#f5f2ee
+	#f6ecdd;
+	#e4e2e1
+	#dbbda3
+
+
+
 }
 
 
