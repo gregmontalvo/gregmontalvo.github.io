@@ -89,11 +89,6 @@ header {
   height: 45px;
   border-radius: 7px;
   filter: drop-shadow(3px 0px 3px darkgrey);
-
-}
-
-.asset_main{
-	font-family: Inter;
 }
 
 .asset_main.a{
@@ -344,7 +339,7 @@ h1.img_head{
 	font-size: 14px;
 	font-style: italic;
 	height: 45px;
-	background-color:rgb(219, 237, 219) ;
+	background-color:#f6ecdd ;
 }
 
 .avg_price_row{
